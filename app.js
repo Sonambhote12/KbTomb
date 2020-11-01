@@ -1,2 +1,2 @@
 var myLogModule = require('./log.js');
-myLogModule.info('1 mb');
+myLogModule.kbToMb(10000);

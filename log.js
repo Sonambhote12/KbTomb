@@ -1,8 +1,7 @@
 var log ={
-    info: function(info){
-        kb = 1024;
-        mb = 1;
-        console.log('1024 kb is equal to ' + info);
+    kbToMb: function(bytes){
+        const i = Math.round(bytes/1024);
+        console.log('10000 kb in megabyte is ' + i);
     }
 }
 module.exports = log
